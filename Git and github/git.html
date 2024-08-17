@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT AND GITHUB</title>
+     
+</head>
+           <h1><u><i>GIT AND GITHUB NOTES</i></u></h1>
+<h2><u><i>GIT COMMANDS</i></u></h2>
+<body background="git and github.png">
+
+<p>
+-There are different git commands i.e:
+<ol>
+    <li> 
+
+        git init
+    </li>
+    <li> 
+        git add 
+    </li>
+    <li> 
+        git commit m "first commit"
+    </li>
+    <li>
+        git branch M main
+    </li>
+    <li>
+        git remote add origin  (https://github.com/Allan39543/demo.git)
+    </li>
+    <li> 
+        git push u origin main
+    </li>
+    
+    
+</ol>
+<h3>git init</h3>
+<b>What it does:</b>This command initializes a new Git repository in your project. It's like telling Git to start tracking changes in this folder.
+
+<br/>
+<b>When to use it:</b> Use it when you want to start version control for a project that isn’t being tracked by Git yet.
+<br/>
+Example;
+<ol> 
+<ul> 
+ ```bash 
+</ul>
+<ul> 
+ git init
+ ``` 
+</ul>
+ </ol>
+-After running this, a hidden `.git` folder will be created in your project, and Git starts tracking your files.
+git add
+<br/>
+ <b>What it does:</b> This command adds files to the staging area, which is like preparing files for the next commit. You're telling Git, "I want to save the changes I've made in these files."
+<br/>
+<h3>git add</h3>
+   <b>  What it does:</b> This command adds files to the staging area, which is like preparing files for the next commit. You're telling Git, "I want to save the changes I've made in these files."
+    <br/>
+   <b>  When to use it:</b> Use it after you've made changes to your files and you’re ready to include them in the next snapshot (commit).
+    <ol>  Example:   
+     <ul> ```bash </ul>
+      <ul> git add index.html ```</ul>
+    
+      Or to add all files:
+
+     <ul> ```bash</ul>
+     <ul>git add .```</ul>
+      </ol>
+      <br/>
+     -This stages the changes made to `index.html` or all files for the next commit.
+    
+   <h3>git add</h3> 
+   <br/>
+   <b>What it does:</b> This command shows the current status of your repository. It tells you which files have changes that are staged for commit, which ones have changes that aren't staged yet, and which files are untracked by Git.
+    <br/>
+    <b> When to use it:</b> Use it anytime you want to see what’s going on with your project in terms of Git tracking.
+   <ol>  Example: 
+     <ul>  ```bash</ul>
+     <ul>  git status
+      ``` </ul>
+   </ol>   
+   -This will display a summary of your current changes, helping you decide what to do next.
+    
+    <h3>git commit</h3> 
+   <b>What it does:</b> This command creates a snapshot of the changes in your project. It takes everything in the staging area and stores that snapshot in the history of the repository.
+    <br/>
+   <b>  When to use it:</b> Use it after you’ve staged your changes and you’re ready to save a version of your project with a descriptive message.
+    <ol> Example: 
+      <ul> ```bash</ul>
+      <ul> git commit m "Describe what changes you made"
+      ```</ul>
+    </ol>
+    <br/>
+     - This commits the staged changes with a message explaining what you did.
+   <h3>  git branch -M main</h3>
+    <b> What it does:</b> Renames the current branch to main.
+    <br/>
+   <b> Explanation:</b> By default, Git might call your initial branch master. This command changes its name to main, which is now a common naming convention.
+    
+   <h3>  git push</h3>
+    <b> What it does:</b> This command uploads your local repository changes to a remote repository (like on GitHub). It’s like sharing your changes with others or backing them up online.
+    <br/>
+   <b>  When to use it:</b> Use it after you’ve committed your changes and you want to send them to a remote repository.
+    <ol> Example: 
+      <ul> ```bash</ul>
+     <ul>  git push origin main
+      ```</ul>
+    </ol>
+    -  This pushes your commits to the `main` branch of your remote repository called `origin`.
+    <br/>
+   - These commands are the foundation for working with Git, and they help you track and manage your project’s changes efficiently!
+    <br/>
+   <b>  When to use it:</b> Use it after you've made changes to your files and you’re ready to include them in the next snapshot (commit).
+ <ol> Example: 
+  <ul> ```bash</ul>
+ <ul>  git add index.html
+  ```</ul>
+  Or to add all files:
+ <ul>  ```bash</ul>
+  <ul> git add .
+  ```</ul>
+  </ol>
+ - This stages the changes made to `index.html` or all files for the next commit.
+
+<h3>git status</h3>
+<b>What it does:</b> command shows the current status of your repository. It tells you which files have changes that are staged for commit, which ones have changes that aren't staged yet, and which files are untracked by Git.
+<br/>
+<b> When to use it:</b> Use it anytime you want to see what’s going on with your project in terms of Git tracking.
+ <ol> Example: 
+ <ul>  ```bash</ul>
+ <ul>  git status
+  ``` </ul>
+</ol>
+  -This will display a summary of your current changes, helping you decide what to do next.
+
+<h3>git commit</h3>
+<b>What it does:</b> This command creates a snapshot of the changes in your project. It takes everything in the staging area and stores that snapshot in the history of the repository.
+<br/>
+<b> When to use it:</b> it after you’ve staged your changes and you’re ready to save a version of your project with a descriptive message.
+ <ol>  Example: 
+ <ul>  ```bash</ul>
+ <ul> git commit m "Describe what changes you made"
+  ```</ul>
+ </ol>
+
+  -This commits the staged changes with a message explaining what you did.
+<h3>git branch -M main</h3>
+<b>What it does:</b> Renames the current branch to main.
+<br/>
+<b> Explanation:</b> By default, Git might call your initial branch master. This command changes its name to main, which is now a common naming convention.
+
+<h3> git push</h3>
+ <b> What it does:</b>This command uploads your local repository changes to a remote repository (like on GitHub). It’s like sharing your changes with others or backing them up online.
+<br/>
+<b>When to use it:</b> Use it after you’ve committed your changes and you want to send them to a remote repository.
+ <ol>Example: 
+ <ul> ```bash</ul>
+ <ul>  git push origin main
+  ```</ul>
+</ol>
+  -This pushes your commits to the `main` branch of your remote repository called `origin`.
+<br/>
+-These commands are the foundation for working with Git, and they help you track and manage your project’s changes efficiently!
+<b>
+-For better understanding watch the view below
+</b>
+<iframe width="560
+" height="315" src="https://www.youtube.com/embed/jAEr_vLYxsM?si=oJtLOV9MNzL0feNP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+</body>
+</html>
